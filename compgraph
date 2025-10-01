@@ -1,0 +1,16 @@
+digraph {
+	graph [rankdir=LR]
+	v4410388128 [label="{ d | data 4.0000 }" shape=record]
+	opv4410388128 [label="+" shape=circle width=0.3]
+	opv4410388128 -> v4410388128
+	v4410379920 [label="{ e | data -6.0000 }" shape=record]
+	opv4410379920 [label="*" shape=circle width=0.3]
+	opv4410379920 -> v4410379920
+	v4398154768 [label="{ b | data -2.0000 }" shape=record]
+	v4406941680 [label="{ a | data 3.0000 }" shape=record]
+	v4418346256 [label="{ c | data 10.0000 }" shape=record]
+	v4410379920 -> opv4410388128
+	v4398154768 -> opv4410379920
+	v4406941680 -> opv4410379920
+	v4418346256 -> opv4410388128
+}
